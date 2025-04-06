@@ -6,15 +6,8 @@ public class Music : MonoBehaviour
 {
     [SerializeField] AudioSource music;
     public static Music instance;
-    public void OnMusic()
-    {
-        music.Play();   
-    }
-    public void OffMusic()
-    {
-        music.Stop();
-    }
-    void Awake()
+
+    private void Awake()
     {
         if (instance == null)
         {
@@ -25,5 +18,15 @@ public class Music : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void OnMusic()
+    {
+        music.Play();   
+    }
+
+    public void OffMusic()
+    {
+        music.Stop();
     }
 }

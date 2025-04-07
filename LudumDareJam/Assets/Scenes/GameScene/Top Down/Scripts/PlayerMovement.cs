@@ -13,6 +13,7 @@ public class playerMovement : MonoBehaviour
     private Animator _animator; 
     private Rigidbody2D _rb;
 
+    private bool PodeAndar = true;
 
     private const string _horizontal = "Horizontal";
     private const string _vertical = "Vertical";
@@ -30,18 +31,21 @@ public class playerMovement : MonoBehaviour
 
     private void Update()
     {
-        _movement.Set(InputManager.Movement.x, InputManager.Movement.y);
-
-        _rb.linearVelocity = _movement * _moveSpeed; 
-
-        _animator.SetFloat(_horizontal, _movement.x); //animação do jogador ao andar para direita e para esquerda
-        _animator.SetFloat(_vertical, _movement.y); //animação do jogador ao andar para cima e para baixo
-
-        if(_movement != Vector2.zero)
+        if (PodeAndar)
         {
-            _animator.SetFloat(_Ultimovertical, _movement.y);
-            _animator.SetFloat(_Ultimohorizontal, _movement.x);
-            //detecta a ultima posição que o jogador estava se movendo, assim fazendo que ele fique parado nessa posição em idle
+            _movement.Set(InputManager.Movement.x, InputManager.Movement.y);
+
+            _rb.linearVelocity = _movement * _moveSpeed;
+
+            _animator.SetFloat(_horizontal, _movement.x); //animação do jogador ao andar para direita e para esquerda
+            _animator.SetFloat(_vertical, _movement.y); //animação do jogador ao andar para cima e para baixo
+
+            if (_movement != Vector2.zero)
+            {
+                _animator.SetFloat(_Ultimovertical, _movement.y);
+                _animator.SetFloat(_Ultimohorizontal, _movement.x);
+                //detecta a ultima posição que o jogador estava se movendo, assim fazendo que ele fique parado nessa posição em idle
+            }
         }
     }
 }

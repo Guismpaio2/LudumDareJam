@@ -11,15 +11,23 @@ public class Timer : MonoBehaviour
     
     void Start()
     {
-        elapsedTime = PlayerPrefs.GetFloat("timer", 0);
+        elapsedTime = PlayerPrefs.GetFloat("timer", 5);
     }
 
     void Update()
     {
-        elapsedTime += Time.deltaTime;
-        int minutes = Mathf.FloorToInt(elapsedTime / 60);        
-        int seconds = Mathf.FloorToInt(elapsedTime % 60);
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        if (elapsedTime <= 0)//timer chega em zero
+        {
+            timerText.text = "00:00";
+            Debug.Log("Tempo Acabou!");
+            // Aqui você pode adicionar o que acontece quando o tempo acaba
+        }
+        else {
+            elapsedTime -= Time.deltaTime;
+            int minutes = Mathf.FloorToInt(elapsedTime / 60);
+            int seconds = Mathf.FloorToInt(elapsedTime % 60);
+            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        }
 
     }
     public void SaveTime()

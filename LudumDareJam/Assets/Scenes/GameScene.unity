@@ -1056,6 +1056,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5996708518609562191, guid: 5452d8bf382979140b9e9c4ce87879f7, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758804149597310304, guid: 5452d8bf382979140b9e9c4ce87879f7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758804149597310304, guid: 5452d8bf382979140b9e9c4ce87879f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6758804149597310304, guid: 5452d8bf382979140b9e9c4ce87879f7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1095,6 +1107,14 @@ PrefabInstance:
     - target: {fileID: 6758804149597310304, guid: 5452d8bf382979140b9e9c4ce87879f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356062213817876986, guid: 5452d8bf382979140b9e9c4ce87879f7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8623765805539864475, guid: 5452d8bf382979140b9e9c4ce87879f7, type: 3}
+      propertyPath: _moveSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

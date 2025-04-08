@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     
     void Start()
     {
-        elapsedTime = PlayerPrefs.GetFloat("timer", 5);
+        elapsedTime = PlayerPrefs.GetFloat("timer", 30);
     }
 
     void Update()
@@ -19,10 +19,11 @@ public class Timer : MonoBehaviour
         if (elapsedTime <= 0)//timer chega em zero
         {
             timerText.text = "00:00";
-            Debug.Log("Tempo Acabou!");
-            // Aqui você pode adicionar o que acontece quando o tempo acaba
+            Debug.Log("Tempo Acabou / Perdeu!");
+            // O que acontece com o timer no GameOver
         }
-        else {
+        else
+        {
             elapsedTime -= Time.deltaTime;
             int minutes = Mathf.FloorToInt(elapsedTime / 60);
             int seconds = Mathf.FloorToInt(elapsedTime % 60);
@@ -40,6 +41,11 @@ public class Timer : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("timer");
         elapsedTime = 0;
+    }
+
+    public void PegouLarva()
+    {
+        elapsedTime += 3; // Adiciona 5 segundos ao tempo restante
     }
     void Awake()
     {

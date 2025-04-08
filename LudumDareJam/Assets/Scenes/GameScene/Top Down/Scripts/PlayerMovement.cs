@@ -13,7 +13,7 @@ public class playerMovement : MonoBehaviour
     private Animator _animator; 
     private Rigidbody2D _rb;
 
-    private bool PodeAndar = true;
+    public bool PodeAndar = true;
 
     private const string _horizontal = "Horizontal";
     private const string _vertical = "Vertical";
@@ -47,5 +47,14 @@ public class playerMovement : MonoBehaviour
                 //detecta a ultima posição que o jogador estava se movendo, assim fazendo que ele fique parado nessa posição em idle
             }
         }
+    }
+
+    public void TravarJogador()
+    {
+        _rb.linearVelocity = (_movement * _moveSpeed) * 0;
+        PodeAndar = false;
+        _animator.SetFloat(_horizontal, _movement.x);
+        _animator.SetFloat(_vertical, _movement.y);
+        
     }
 }

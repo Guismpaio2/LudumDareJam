@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 38f531d24a05401479a5bfd5f46db405
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7794577286053402066
+    second: Robertinho Passofundo (mergulhador_0
+  - first:
+      213: -5026646281119750684
+    second: Robertinho Passofundo (mergulhador_1
+  - first:
+      213: 786058233313937587
+    second: Robertinho Passofundo (mergulhador_2
+  - first:
+      213: 282021564109874688
+    second: Robertinho Passofundo (mergulhador_3
+  - first:
+      213: 338961939630777800
+    second: Robertinho Passofundo (mergulhador_4
+  - first:
+      213: 699344979514130225
+    second: Robertinho Passofundo (mergulhador_5
+  - first:
+      213: -2514566374678991770
+    second: Robertinho Passofundo (mergulhador_6
+  - first:
+      213: -4774604624912797635
+    second: Robertinho Passofundo (mergulhador_7
+  - first:
+      213: 592240767904742707
+    second: Robertinho Passofundo (mergulhador_8
+  - first:
+      213: -4069596635257602116
+    second: Robertinho Passofundo (mergulhador_9
+  - first:
+      213: 7573765308765563358
+    second: Robertinho Passofundo (mergulhador_10
+  - first:
+      213: 3534360264093247528
+    second: Robertinho Passofundo (mergulhador_11
+  - first:
+      213: -6283931737695974344
+    second: Robertinho Passofundo (mergulhador_12
+  - first:
+      213: 6060270803333254682
+    second: Robertinho Passofundo (mergulhador_13
+  - first:
+      213: -6019482541822550171
+    second: Robertinho Passofundo (mergulhador_14
+  - first:
+      213: 3615896644927464581
+    second: Robertinho Passofundo (mergulhador_15
+  - first:
+      213: -8614108222947841501
+    second: Robertinho Passofundo (mergulhador_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1029
+        width: 263
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d59a858eb6eb2c60800000000000000
+      internalID: 7794577286053402066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_1
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1029
+        width: 263
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5a152f6d3cd3ab0800000000000000
+      internalID: -5026646281119750684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_2
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1054
+        width: 297
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8c2796cc3a8ea00800000000000000
+      internalID: 786058233313937587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_3
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1054
+        width: 297
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006e4cb4e11f9e300800000000000000
+      internalID: 282021564109874688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_4
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 1096
+        width: 270
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5e114961c34b400800000000000000
+      internalID: 338961939630777800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_5
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 1096
+        width: 270
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f7467bd8294b900800000000000000
+      internalID: 699344979514130225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_6
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 1105
+        width: 259
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ced1974377a1dd0800000000000000
+      internalID: -2514566374678991770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 593
+        width: 259
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30b22df3623dbdb0800000000000000
+      internalID: -4774604624912797635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_8
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 609
+        width: 266
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d777037df083800800000000000000
+      internalID: 592240767904742707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_9
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 609
+        width: 266
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf78500c63e587c0800000000000000
+      internalID: -4069596635257602116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_10
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 584
+        width: 260
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9e529bb6b6b1960800000000000000
+      internalID: 7573765308765563358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_11
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 584
+        width: 260
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828a8813fe19c0130800000000000000
+      internalID: 3534360264093247528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_12
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 590
+        width: 296
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c04d5d06dfac8a0800000000000000
+      internalID: -6283931737695974344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_13
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 590
+        width: 296
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e895bdf286a1450800000000000000
+      internalID: 6060270803333254682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70
+        width: 269
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f50035580867ca0800000000000000
+      internalID: -6019482541822550171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_15
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 70
+        width: 269
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584ad6937de3e2230800000000000000
+      internalID: 3615896644927464581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robertinho Passofundo (mergulhador_16
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 0
+        width: 2561
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a2c62f53a847880800000000000000
+      internalID: -8614108222947841501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
